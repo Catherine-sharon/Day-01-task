@@ -1,0 +1,20 @@
+Write a blog about objects and its internal representation in Javascript
+
+Objects :
+	An object is a collection of properties, and a property is an association between a  key and a value. 
+	Objects, in JavaScript  is the most important data-type and forms the building blocks for modern JavaScript.
+	An object, is a reference data type.. objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” “a:b” pairs.
+	These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+Eg:
+1.	Brand : Mercedes 
+2.	Model: C-Class
+3.	Color: White
+4.	Fuel: Diesel
+5.	Weight: 850kg
+6.	Mileage: 8Kmpl
+7.	Rating: 4.5
+The internal representation in javascript will be like:
+	var car = {Brand: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel,   Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
+	The values are written as name:value pairs (name and value separated by a colon).
+Syntax:
+	var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
